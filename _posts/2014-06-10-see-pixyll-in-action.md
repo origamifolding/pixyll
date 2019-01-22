@@ -9,8 +9,7 @@ categories: jekyll pixyll
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.
 
-All links are easy to [locate and discern](#), yet don't detract from the [harmony
-of a paragraph](#). The _same_ goes for italics and __bold__ elements. Even the the strikeout
+All links are easy to [locate and discern](#), yet don't detract from the [harmony of a paragraph](#). The _same_ goes for italics and __bold__ elements. Even the the strikeout
 works if <del>for some reason you need to update your post</del>. For consistency's sake,
 <ins>The same goes for insertions</ins>, of course.
 
@@ -66,6 +65,13 @@ Here's some HTML:
 <div class="m0 p0 bg-blue white">
   <h3 class="h1">Hello, world!</h3>
 </div>
+{% endhighlight %}
+
+Here's some Python:
+
+{% highlight python %}
+def foo(bar):
+    print(bar)
 {% endhighlight %}
 
 # Headings!
